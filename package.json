@@ -3,7 +3,8 @@
     "displayName": "jn-snippets",
     "description": "江鸟测试的代码片段",
     "publisher":"jiangniao",
-    "version": "0.0.2",
+    "version": "0.0.5",
+    "repository": "https://github.com/Nuibia/jn-snippets",
     "engines": {
         "vscode": "^1.37.1"
     },
@@ -17,6 +18,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "scripts": {
+        "public":"vsce publish"
     },
     "dependencies": {
         "vsce": "^2.5.3"

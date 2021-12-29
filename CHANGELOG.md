@@ -1,9 +1,3 @@
-# Change Log
+## 功能
 
-All notable changes to the "jn-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 2021年12月29日 初始化成功
