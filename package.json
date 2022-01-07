@@ -1,28 +1,29 @@
 {
-    "name": "jn-snippets",
-    "displayName": "jn-snippets",
-    "description": "江鸟测试的代码片段",
-    "publisher":"jiangniao",
-    "version": "0.0.5",
-    "repository": "https://github.com/Nuibia/jn-snippets",
-    "engines": {
-        "vscode": "^1.37.1"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    },
-    "scripts": {
-        "public":"vsce publish"
-    },
-    "dependencies": {
-        "vsce": "^2.5.3"
-    }
+  "name": "jn-snippets",
+  "displayName": "jn-snippets",
+  "description": "江鸟测试的代码片段",
+  "publisher": "jiangniao",
+  "version": "0.0.7",
+  "repository": "https://github.com/Nuibia/jn-snippets",  
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.37.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "public": "vsce publish"
+  },
+  "dependencies": {
+    "vsce": "^2.5.3"
+  }
 }
