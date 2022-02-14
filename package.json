@@ -2,10 +2,10 @@
   "name": "byai-snippets",
   "displayName": "byai-snippets",
   "description": "百应前端通用的代码片段",
-  "icon": "images/logo.png",
+  "icon": "images/icon.png",
   "publisher": "jiangniao",
-  "version": "0.0.7",
-  "repository": "https://github.com/Nuibia/jn-snippets",  
+  "version": "0.0.1",
+  "repository": "https://github.com/Nuibia/jn-snippets",
   "engines": {
     "vscode": "^1.37.1"
   },
@@ -16,7 +16,7 @@
     "snippets": [
       {
         "language": "",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/components.code-snippets"
       },
       {
         "language": "",
