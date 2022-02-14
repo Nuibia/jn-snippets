@@ -17,6 +17,10 @@
       {
         "language": "",
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/hooks.code-snippets"
       }
     ]
   },

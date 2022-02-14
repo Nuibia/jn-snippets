@@ -1,0 +1,50 @@
+{
+    "byai-useState": {
+        "prefix": "useState",
+        "body": [
+            "const [ ${1:state}, set${1/(.*)/${1:/capitalize}/} ] = useState(${2:state});${0}"
+        ],
+        "description": "百应前端通用useState代码结构"
+    },
+    "byai-useEffect": {
+        "prefix": "useEffect",
+        "body": [
+            "useEffect(() => {",
+            "",
+            "    }, [])"
+        ],
+        "description": "百应前端通用useEffect代码结构"
+    },
+    "byai-useContext": {
+        "prefix": "useContext",
+        "body": [
+            "const ${1:context} = useContext(${2:context});${0}"
+        ],
+        "description": "百应前端通用useContext代码结构"
+    },
+    "byai-useReducer": {
+        "prefix": "useReducer",
+        "body": [
+            "const [ state, dispatch ] = useReducer(${1:reducer},${2:initializerArg},${3:initializer});${0}"
+        ],
+        "description": "百应前端通用useReducer代码结构"
+    },
+    "byai-useCallback": {
+        "prefix": "useCallback",
+        "body": [
+            "const ${1:funName} =  useCallback(",
+            "() => {",
+            "",
+            "},",
+            "[],",
+            ")${0}",
+        ],
+        "description": "百应前端通用useCallback代码结构"
+    },
+    "byai-useRef":{
+        "prefix": "useRef",
+        "body": [
+            "const ${1:refName} =  useRef(${2:ref})${0}"
+        ]
+    }
+}
