@@ -1,11 +1,11 @@
 {
-  "name": "jn-snippets",
-  "displayName": "jn-snippets",
-  "description": "江鸟测试的代码片段",
+  "name": "byai-snippets",
+  "displayName": "byai-snippets",
+  "description": "百应前端通用的代码片段",
+  "icon": "images/logo.png",
   "publisher": "jiangniao",
   "version": "0.0.7",
   "repository": "https://github.com/Nuibia/jn-snippets",  
-  "icon": "icon.png",
   "engines": {
     "vscode": "^1.37.1"
   },
