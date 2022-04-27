@@ -1,5 +1,5 @@
 {
-    "byai-FC-component": {
+    "jn-FC-component": {
         "prefix": [
             "FC",
             "fc"
@@ -18,9 +18,9 @@
             "}",
             "${0}"
         ],
-        "description": "百应前端通用FC组件代码结构"
+        "description": "通用FC组件代码结构"
     },
-    "byai-VFC-component": {
+    "jn-VFC-component": {
         "prefix": [
             "vfc",
             "VFC"
@@ -39,6 +39,6 @@
             "}",
             "${0}"
         ],
-        "description": "百应前端通用VFC组件代码结构"
+        "description": "通用VFC组件代码结构"
     },
 }

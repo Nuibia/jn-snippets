@@ -1,7 +1,7 @@
 {
-  "name": "byai-snippets",
-  "displayName": "byai-snippets",
-  "description": "百应前端通用的代码片段",
+  "name": "jn-snippets",
+  "displayName": "jn-snippets",
+  "description": "通用的代码片段",
   "icon": "images/icon.png",
   "publisher": "jiangniao",
   "version": "0.0.1",
